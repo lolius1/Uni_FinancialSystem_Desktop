@@ -1,0 +1,12 @@
+Category ID: 50
+Is category a subcategory: false
+Parent: none
+Name: xddd
+Description: rofl
+Date created: 2020-11-17
+Date modified: 2020-11-17
+Subcategories: []
+Responsible users: [User{login='123', psw='123'}]
+Income: [Income{Name='yeee', Amount='100'}]
+Expenditure: [Expenditure{Name='loool', Amount='1000'}]
+-------------------------

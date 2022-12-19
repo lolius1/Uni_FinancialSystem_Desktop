@@ -1,0 +1,2 @@
+User{login='123', psw='123'}
+User{login='lukasUpdated', psw='123'}

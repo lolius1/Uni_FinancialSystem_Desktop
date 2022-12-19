@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="273.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <Button fx:id="btnLogin" layoutX="192.0" layoutY="191.0" mnemonicParsing="false" onAction="#loginCheck" prefHeight="25.0" prefWidth="62.0" text="Log in" AnchorPane.bottomAnchor="57.0" AnchorPane.leftAnchor="192.0" AnchorPane.rightAnchor="104.0" AnchorPane.topAnchor="191.0" />
+      <TextField fx:id="textUser" layoutX="105.0" layoutY="82.0" promptText="Username" AnchorPane.bottomAnchor="166.0" AnchorPane.leftAnchor="105.0" AnchorPane.rightAnchor="104.0" AnchorPane.topAnchor="82.0" />
+      <TextField fx:id="textPsw" layoutX="105.0" layoutY="130.0" promptText="Password" AnchorPane.bottomAnchor="118.0" AnchorPane.leftAnchor="105.0" AnchorPane.rightAnchor="104.0" AnchorPane.topAnchor="130.0" />
+      <Label layoutX="148.0" layoutY="14.0" text="LOGIN">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSign" layoutX="105.0" layoutY="191.0" mnemonicParsing="false" onAction="#userSignUp" prefHeight="25.0" prefWidth="62.0" text="Sign up" />
+   </children>
+</AnchorPane>

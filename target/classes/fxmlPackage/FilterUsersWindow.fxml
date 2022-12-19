@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FilterUsersController">
+   <children>
+      <Button fx:id="btnFilter" layoutX="93.0" layoutY="320.0" mnemonicParsing="false" onAction="#filterCategories" text="Filter" />
+      <ListView fx:id="listViewUsers" layoutX="237.0" prefHeight="404.0" prefWidth="363.0" />
+      <ComboBox fx:id="comboType" layoutX="40.0" layoutY="33.0" prefWidth="150.0" promptText="type" />
+      <Button fx:id="btnBack" layoutX="10.0" layoutY="365.0" mnemonicParsing="false" onAction="#goToLastWindow" text="Go back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="311.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserController">
+   <children>
+      <Label layoutX="149.0" layoutY="14.0" text="User management">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAdd" layoutX="190.0" layoutY="62.0" mnemonicParsing="false" onAction="#addUserWindow" prefHeight="25.0" prefWidth="90.0" text="Add a user" />
+      <Button fx:id="btnBack" layoutX="14.0" layoutY="279.0" mnemonicParsing="false" onAction="#goToLastWindow" text="Go back" />
+      <Button fx:id="btnDel" layoutX="190.0" layoutY="96.0" mnemonicParsing="false" onAction="#deleteUserWindow" prefHeight="25.0" prefWidth="90.0" text="Delete a user" />
+      <Button fx:id="btnUpd" layoutX="190.0" layoutY="131.0" mnemonicParsing="false" onAction="#updateUserWindow" text="Update a user" />
+      <Button fx:id="btnShow" layoutX="190.0" layoutY="166.0" mnemonicParsing="false" onAction="#showUsersWindow" prefHeight="25.0" prefWidth="90.0" text="Show users" />
+      <Button fx:id="btnFilter" layoutX="190.0" layoutY="200.0" mnemonicParsing="false" onAction="#loadFilterUsers" prefHeight="25.0" prefWidth="90.0" text="Filter users" />
+   </children>
+</AnchorPane>

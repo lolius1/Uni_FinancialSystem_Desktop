@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddExpenditureController">
+   <children>
+      <Label layoutX="221.0" layoutY="14.0" text="Add Expenditure">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textName" layoutX="226.0" layoutY="106.0" promptText="Expenditure name" />
+      <TextField fx:id="textDesc" layoutX="226.0" layoutY="141.0" promptText="Expenditure description" />
+      <TextField fx:id="textAmount" layoutX="226.0" layoutY="175.0" promptText="Expenditure amount" />
+      <Button fx:id="btnBack" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#goToLastWindow" text="Go back" />
+      <Button fx:id="btnAdd" layoutX="226.0" layoutY="274.0" mnemonicParsing="false" onAction="#addExpenditure" prefHeight="25.0" prefWidth="149.0" text="Add" />
+      <DatePicker fx:id="dateExp" layoutX="226.0" layoutY="211.0" prefHeight="25.0" prefWidth="149.0" promptText="Expenditure date" />
+   </children>
+</AnchorPane>

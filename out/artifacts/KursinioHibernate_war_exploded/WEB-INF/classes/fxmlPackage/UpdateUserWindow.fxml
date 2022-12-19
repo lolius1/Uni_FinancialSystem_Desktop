@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UpdateUserController">
+   <children>
+      <Label layoutX="243.0" layoutY="14.0" text="Update user">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textLogin" layoutX="226.0" layoutY="91.0" promptText="Login name" />
+      <TextField fx:id="textPsw" layoutX="226.0" layoutY="124.0" promptText="Password" />
+      <ComboBox fx:id="comboType" layoutX="225.0" layoutY="164.0" prefWidth="150.0" promptText="User Type" />
+      <Button fx:id="btnBack" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#goToLastWindow" text="Go back" />
+      <Button fx:id="btnUpd" layoutX="244.0" layoutY="252.0" mnemonicParsing="false" onAction="#updateUser" prefHeight="25.0" prefWidth="114.0" text="Update" />
+      <ComboBox fx:id="comboID" layoutX="225.0" layoutY="55.0" onAction="#showUser" prefWidth="150.0" promptText="User ID" />
+   </children>
+</AnchorPane>

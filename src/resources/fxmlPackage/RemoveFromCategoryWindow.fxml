@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="222.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RemoveFromCategoryController">
+   <children>
+      <Label layoutX="83.0" layoutY="14.0" text="Remove from a category">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBack" layoutX="14.0" layoutY="183.0" mnemonicParsing="false" onAction="#goToLastWindow" text="Go back" />
+      <Button fx:id="btnResp" layoutX="118.0" layoutY="52.0" mnemonicParsing="false" onAction="#RemoveResponsiblePersonWindow" text="Remove responsible person" />
+      <Button fx:id="btnIncome" layoutX="118.0" layoutY="92.0" mnemonicParsing="false" onAction="#RemoveIncomeWindow" prefHeight="25.0" prefWidth="163.0" text="Remove income" />
+      <Button fx:id="btnExp" layoutX="118.0" layoutY="132.0" mnemonicParsing="false" onAction="#RemoveExpenditureWindow" prefHeight="25.0" prefWidth="163.0" text="Remove expenditure" />
+   </children>
+</AnchorPane>

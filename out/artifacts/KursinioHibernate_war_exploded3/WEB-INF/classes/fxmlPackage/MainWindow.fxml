@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="459.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindowController">
+   <children>
+      <Button fx:id="btnCat" layoutX="161.0" layoutY="105.0" mnemonicParsing="false" onAction="#loadCategoryWindow" text="Category management" AnchorPane.bottomAnchor="270.0" AnchorPane.leftAnchor="161.0" AnchorPane.rightAnchor="160.0" AnchorPane.topAnchor="105.0" />
+      <Button fx:id="btnUser" layoutX="161.0" layoutY="158.0" mnemonicParsing="false" onAction="#loadUserWindow" prefHeight="25.0" prefWidth="138.0" text="User management" />
+      <Button fx:id="btnExport" layoutX="161.0" layoutY="215.0" mnemonicParsing="false" onAction="#loadExportWindow" prefHeight="25.0" prefWidth="138.0" text="Export managament" />
+      <Label layoutX="88.0" layoutY="39.0" text="Financial management system">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnLogout" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#loginWindow" text="Log out" />
+   </children>
+</AnchorPane>

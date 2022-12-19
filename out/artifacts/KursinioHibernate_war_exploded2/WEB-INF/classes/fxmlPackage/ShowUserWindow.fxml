@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="227.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ShowUserController">
+   <children>
+      <Label layoutX="364.0" layoutY="14.0" text="Show user">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBack" layoutX="14.0" layoutY="194.0" mnemonicParsing="false" onAction="#goToLastWindow" text="Go back" />
+      <ComboBox fx:id="comboID" layoutX="14.0" layoutY="79.0" onAction="#showUser" prefWidth="150.0" promptText="User ID" />
+      <TextField fx:id="textLogin" editable="false" layoutX="189.0" layoutY="79.0" />
+      <TextField fx:id="textName" editable="false" layoutX="338.0" layoutY="79.0" />
+      <TextField fx:id="textSurname" editable="false" layoutX="487.0" layoutY="79.0" />
+      <TextField fx:id="textType" editable="false" layoutX="636.0" layoutY="79.0" />
+      <Label layoutX="232.0" layoutY="51.0" text="Login name" />
+      <Label layoutX="397.0" layoutY="51.0" text="Name" />
+      <Label layoutX="538.0" layoutY="51.0" text="Surname" />
+      <Label layoutX="698.0" layoutY="51.0" text="Type" />
+   </children>
+</AnchorPane>
